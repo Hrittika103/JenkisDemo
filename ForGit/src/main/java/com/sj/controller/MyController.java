@@ -11,5 +11,11 @@ public class MyController {
 		return " Hello World From Hrittika";
 		
 	}
+	@GetMapping("/hey")
+	public String sayHello()
+	{
+		return " Hello World From Hrittika  Paul";
+		
+	}
 
 }
